@@ -65,6 +65,10 @@
   font-family: "Space Mono", monospace;
   font-size: 20px;
   color: #f7f2e7;
+  height: 100px;
+  width: 100px;
+
+  line-height: 100px;
 }
 .other-btn {
   position: absolute;
