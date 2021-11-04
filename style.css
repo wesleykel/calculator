@@ -29,9 +29,13 @@
 }
 #line1 {
   border: red 1px solid;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 45% 5% 45%;
 }
 #line2 {
   border: red 1px solid;
+  text-align: right;
 }
 
 #body {
@@ -54,6 +58,15 @@
   background-color: #797a7ed7;
 }
 .number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  color: #f7f2e7;
+}
+.other-btn {
   position: absolute;
   top: 50%;
   left: 50%;
