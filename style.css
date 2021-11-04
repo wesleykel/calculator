@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0px;
+}
+
+#wrapper {
+  /*border: black 1px solid;*/
+  height: 770px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: #d8d3cd;
+}
+
+#screen {
+  /*border: black 1px solid;*/
+  width: 497px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+#line1 {
+  border: red 1px solid;
+}
+#line2 {
+  border: red 1px solid;
+}
+
+#body {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-column-gap: 5px;
+}
+#butcon {
+  margin-top: 20px;
+  /*border: black 1px solid;*/
+  height: 100px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  background-color: #797a7e;
+}
+
+#butcon:hover {
+  background-color: #797a7ed7;
+}
+.number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  color: #f7f2e7;
+}
+
+#butcon.number:hover {
+  color: black;
+}

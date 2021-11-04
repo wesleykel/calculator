@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calculator</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <div id="wrapper">
+      <div id="screen">
+        <div id="line1"></div>
+        <div id="line2"></div>
+      </div>
+      <div id="body">
+        <button value="" id="butcon" data-val="+">
+          <div class="number" id="plus"></div>
+        </button>
+        <button data-type-minus="" id="butcon">
+          <div class="number" id="minus"></div>
+        </button>
+        <button value="%" id="butcon">
+          <div class="number" id="percent">%</div>
+        </button>
+        <button value="" id="butcon">
+          <div class="number" id="clear">ce</div>
+        </button>
+        <button value="7" id="butcon">
+          <div class="number" id="seven">7</div>
+        </button>
+
+        <button value="8" id="butcon">
+          <div class="number" id="eight">8</div>
+        </button>
+        <button value="9" id="butcon">
+          <div class="number" id="nine">9</div>
+        </button>
+
+        <button value id="butcon">
+          <div class="number" id="multi">x</div>
+        </button>
+        <button value="4" id="butcon">
+          <div class="number" id="four">4</div>
+        </button>
+        <button value="5" id="butcon">
+          <div class="number" id="five">5</div>
+        </button>
+        <button value="6" id="butcon">
+          <div class="number" id="six">6</div>
+        </button>
+
+        <button id="butcon"><div class="number" id="divide">/</div></button>
+
+        <button value="1" id="butcon">
+          <div class="number" id="one">1</div>
+        </button>
+        <button value="2" id="butcon">
+          <div class="number" id="two">2</div>
+        </button>
+        <button value="3" id="butcon">
+          <div class="number" id="three">3</div>
+        </button>
+
+        <button id="butcon"><div class="number" id="minus">-</div></button>
+        <button value="0" id="butcon">
+          <div class="number" id="zero">0</div>
+        </button>
+
+        <div id="butcon"><div class="number" id="dot">.</div></div>
+
+        <div id="butcon"><div class="number" id="equal">=</div></div>
+        <div id="butcon"><div class="number" id="plus">+</div></div>
+      </div>
+    </div>
+
+    <script src="script.js" async defer>
+      let one = document.getElementById("one")
+      console.log(one)
+    </script>
+  </body>
+</html>
