@@ -16,11 +16,8 @@ let firstBox = document.getElementById("numOne");
 let symBox = document.getElementById("symBox");
 let symBox2 = document.getElementById("numTwo");
 let midScreen = document.getElementById("line2");
-<<<<<<< HEAD
 let firstBox = document.createElement("div");
 let symBox2 = document.createElement("div");
-=======
->>>>>>> test
 
 let arrayNumber;
 function getButton() {
@@ -41,12 +38,9 @@ function getButton() {
 let arrayNumber2;
 
 function add() {
-<<<<<<< HEAD
   let symBox = document.createElement("div");
   topScreen.appendChild(symBox);
   topScreen.appendChild(symBox2);
-=======
->>>>>>> test
   let firstNumber = getButton();
   symBox.innerText = "+";
   for (let i = 0; i < numberButtons.length; i++) {
