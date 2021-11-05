@@ -12,9 +12,10 @@ const plusButton = document
   .addEventListener("click", add);
 
 let topScreen = document.getElementById("line1");
+let firstBox = document.getElementById("numOne");
+let symBox = document.getElementById("symBox");
+let symBox2 = document.getElementById("numTwo");
 let midScreen = document.getElementById("line2");
-let symBox = document.createElement("div");
-let symBox2 = document.createElement("div");
 
 let arrayNumber;
 function getButton() {
@@ -22,7 +23,7 @@ function getButton() {
     numberButtons[i].onclick = function (e) {
       console.log(numberButtons[i].dataset.value);
       firstNum.push(parseInt(numberButtons[i].dataset.value));
-      topScreen.innerText = firstNum.join("");
+      firstBox.innerText = firstNum.join("");
 
       arrayNumber = Number(firstNum.join(""));
       //console.log(arrayNumber);
@@ -34,8 +35,6 @@ function getButton() {
 let arrayNumber2;
 
 function add() {
-  topScreen.appendChild(symBox);
-  topScreen.appendChild(symBox2);
   let firstNumber = getButton();
   symBox.innerText = "+";
   for (let i = 0; i < numberButtons.length; i++) {
@@ -49,11 +48,6 @@ function add() {
 
   return firstNumber + arrayNumber2;
 }
-
-/*function test() {
-  let firstNumber = getButton();
-  console.log(firstNumber + "hi");
-}*/
 
 function equals() {
   if (symBox.innerText === "+") {
