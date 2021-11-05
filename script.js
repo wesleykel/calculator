@@ -15,13 +15,7 @@ let topScreen = document.getElementById("line1");
 let firstBox = document.getElementById("numOne");
 let symBox = document.getElementById("symBox");
 let symBox2 = document.getElementById("numTwo");
-<<<<<<< HEAD
-
-=======
->>>>>>> 40d36dc78f139d77e8db90fac244ffef61f44fa4
 let midScreen = document.getElementById("line2");
-//let firstBox = document.createElement("div");
-//let symBox2 = document.createElement("div");
 
 let arrayNumber;
 function getButton() {
