@@ -12,19 +12,19 @@
   width: 500px;
   margin-left: auto;
   margin-right: auto;
-  padding: 1%;
+  padding: 3%;
   border-radius: 10px;
   background-color: #d8d3cd;
 }
 
 #screen {
-  /*border: black 1px solid;*/
+  border: grey 2px solid;
   width: 497px;
   height: 150px;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
+  background-color: rgba(12, 216, 12, 0.747);
   border-radius: 10px;
   display: grid;
   grid-template-rows: auto auto;
@@ -37,6 +37,7 @@
   font-family: "Lato", sans-serif;
   font-size: 2rem;
   padding-top: 5%;
+  height: 10%;
 }
 #line2 {
   /* border: red 1px solid;*/
@@ -55,7 +56,7 @@
 }
 #butcon {
   margin-top: 20px;
-  /*border: black 1px solid;*/
+  border: black 1px solid;
   height: 100px;
   text-align: center;
   position: relative;
@@ -87,6 +88,10 @@
   font-family: "Space Mono", monospace;
   font-size: 20px;
   color: #f7f2e7;
+  height: 100px;
+  width: 100px;
+  /*border: red 1px solid;*/
+  line-height: 100px;
 }
 
 #butcon.number:hover {
